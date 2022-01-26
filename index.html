@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<main>
+ <div class="side-a a"></div>
+ <div class="side-b b"></div>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/split.js/1.5.9/split.min.js"></script>
+
+<script>
+Split(['.a', '.b'], {
+ gutterSize: 5,
+    sizes: [25, 75],
+})
+</script>
+</body>
+</html>
